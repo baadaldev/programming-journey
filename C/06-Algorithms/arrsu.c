@@ -1,5 +1,5 @@
 #include<stdio.h>
-int arrsum(int arr[],int n){
+int arrsum(int arr[],int m){
     int sum=0;
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
@@ -9,9 +9,9 @@ int arrsum(int arr[],int n){
     return 0;
 }
 int main(){
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    arrsum(arr,n);
+    int m;
+    scanf("%d",&m);
+    int arr[m;
+    arrsum(arr,m);
     return 0;
 }

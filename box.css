@@ -21,4 +21,10 @@ div >div{
     background-color: rgb(79, 77, 225);
 
 }
+*{
+    background-color: darkgoldenrod;
+    align-items: center;
+    text-align:justify;
+     font-weight: bold;
+}
 /*this is for my pracrics*/

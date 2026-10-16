@@ -1,0 +1,14 @@
+.main{
+    padding: 20px;
+    border:2px solid black;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content:center;
+}
+div >div{
+    background-color: rgb(56, 217, 185);
+    padding: 10px 10px 10px 10px;
+    border: 1.5px solid black;
+    margin: 10px;
+}

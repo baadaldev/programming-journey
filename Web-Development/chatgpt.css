@@ -10,7 +10,9 @@
      background-color: cyan;
      display: block;
     transition: background-color 2s ease;
-     
+    transform: rotate(45deg);
+    transform: scale(1.2);
+
 }
 div{
     text-align: center;

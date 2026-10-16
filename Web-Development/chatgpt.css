@@ -9,7 +9,7 @@
      max-width: 600px;
      background-color: cyan;
      display: block;
-      transition: background-color 0.3s ease;
+    transition: background-color 2s ease;
      
 }
 div{
@@ -37,4 +37,7 @@ p::first-letter{
 }
 p::before {
     content: "Note: ";
+}
+p::after {
+    content: " ✓";
 }

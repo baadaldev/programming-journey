@@ -1,10 +1,12 @@
 .main{
+    height: 200px;
+    width: 500px;
     padding: 20px;
     border:2px solid black;
     display: flex;
     gap: 20px;
     flex-direction: row;
-    justify-content:center;
+    justify-content:space-evenly;
 }
 div >div{
     background-color: rgb(56, 217, 185);

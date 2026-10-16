@@ -1,14 +1,15 @@
 #box {
-    padding: 20px 20px 20px 20px;
+    padding: 5px 5px 5px 5px;
      border: 2px solid black;
      border-radius: 20px;
      margin: 20px;
-     width: 300px;
-     height: 200px;
+     width: 150px;
+     height: 150px;
      min-width: 200px;
      max-width: 600px;
      background-color: cyan;
      display: block;
+      transition: background-color 0.3s ease;
      
 }
 div{
@@ -24,9 +25,16 @@ p {
      letter-spacing: 2px;
      font-family: 'Courier New', Courier, monospace;
 }
-div:hover {
-    background-color: chartreuse;
+#box:hover {
+    background-color: rgb(75, 39, 207);
 }
-#div:hover{
-    background-color: blue;
+#box:active {
+     background-color: rgb(30, 20, 2); }
+#box:checked {
+         accent-color: green; }
+p::first-letter{
+    color: red;
+}
+p::before {
+    content: "Note: ";
 }
